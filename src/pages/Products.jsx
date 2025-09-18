@@ -6,14 +6,14 @@ const Products = () => {
   
   // Sample product data
   const products = [
-    { id: 1, name: 'Premium Cotton', price: 24.99, category: 'cotton', image: '/images/p-coton.jpg' },
-    { id: 2, name: 'Luxury Silk', price: 49.99, category: 'silk', image: '/images/l-silk.avif' },
-    { id: 3, name: 'Natural Linen', price: 34.99, category: 'linen', image: '/images/n-linen.webp' },
-    { id: 4, name: 'Soft Wool', price: 39.99, category: 'wool', image: '/images/s-whool.jpg' },
-    { id: 5, name: 'Cotton Blend', price: 19.99, category: 'cotton', image: '/images/b-cotton.jpg' },
-    { id: 6, name: 'Patterned Silk', price: 54.99, category: 'silk', image: '/images/p-silk.webp' },
-    { id: 7, name: 'Heavy Linen', price: 29.99, category: 'linen', image: '/images/h-linen.jpg' },
-    { id: 8, name: 'Merino Wool', price: 44.99, category: 'wool', image: '/images/m-whool.avif' },
+    { id: 1, name: 'Premium Cotton', price: 24.99, category: 'cotton', image: 'http://localhost:5173/textiles-ecommerce-website-in-react/images/p-coton.jpg' },
+    { id: 2, name: 'Luxury Silk', price: 49.99, category: 'silk', image: 'http://localhost:5173/textiles-ecommerce-website-in-react/images/l-silk.avif' },
+    { id: 3, name: 'Natural Linen', price: 34.99, category: 'linen', image: 'http://localhost:5173/textiles-ecommerce-website-in-react/images/n-linen.webp' },
+    { id: 4, name: 'Soft Wool', price: 39.99, category: 'wool', image: 'http://localhost:5173/textiles-ecommerce-website-in-react/images/s-whool.jpg' },
+    { id: 5, name: 'Cotton Blend', price: 19.99, category: 'cotton', image: 'http://localhost:5173/textiles-ecommerce-website-in-react/images/b-cotton.jpg' },
+    { id: 6, name: 'Patterned Silk', price: 54.99, category: 'silk', image: 'http://localhost:5173/textiles-ecommerce-website-in-react/images/p-silk.webp' },
+    { id: 7, name: 'Heavy Linen', price: 29.99, category: 'linen', image: 'http://localhost:5173/textiles-ecommerce-website-in-react/images/h-linen.jpg' },
+    { id: 8, name: 'Merino Wool', price: 44.99, category: 'wool', image: 'http://localhost:5173/textiles-ecommerce-website-in-react/images/m-whool.avif' },
   ];
 
   const categories = ['all', 'cotton', 'silk', 'linen', 'wool'];

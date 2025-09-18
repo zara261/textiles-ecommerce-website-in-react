@@ -23,7 +23,7 @@ const Home = () => {
           <h2 className="text-3xl font-bold text-center mb-12 text-primary">Featured Products</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-secondary">
-              <img src="/images/cotton.avif" alt="Cotton Fabric" className="w-full h-80 object-cover" />
+              <img src="http://localhost:5173/textiles-ecommerce-website-in-react/images/cotton.avif" alt="Cotton Fabric" className="w-full h-80 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2 text-primary">Premium Cotton</h3>
                 <p className="text-gray-600 mb-4">Soft, breathable cotton perfect for clothing</p>
@@ -32,7 +32,7 @@ const Home = () => {
             </div>
             
             <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-secondary">
-              <img src="/images/silk.jpg" alt="Silk Fabric" className="w-full h-80 object-cover" />
+              <img src="http://localhost:5173/textiles-ecommerce-website-in-react/images/silk.jpg" alt="Silk Fabric" className="w-full h-80 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2 text-primary">Luxury Silk</h3>
                 <p className="text-gray-600 mb-4">Elegant silk for special occasion garments</p>
@@ -41,7 +41,7 @@ const Home = () => {
             </div>
             
             <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-secondary">
-              <img src="images/linen.jpg" alt="Linen Fabric" className="w-full h-80 object-cover" />
+              <img src="http://localhost:5173/textiles-ecommerce-website-in-react/images/linen.jpg" alt="Linen Fabric" className="w-full h-80 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2 text-primary">Natural Linen</h3>
                 <p className="text-gray-600 mb-4">Durable and comfortable linen for all seasons</p>
