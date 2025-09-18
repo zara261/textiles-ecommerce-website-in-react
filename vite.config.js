@@ -7,4 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/textiles-ecommerce-website-in-react/",
 })
